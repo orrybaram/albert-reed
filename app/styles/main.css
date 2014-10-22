@@ -14,10 +14,16 @@ body {
 .hero-unit {
     margin: 0 auto;
     width: 1000px;
+    position: relative;
+    top: 50%;
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
-    text-align: center; }
+    text-align: center; 
+
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);}
     
     .hero-unit h1 {
         color: #FFF;
@@ -26,11 +32,10 @@ body {
         border-left: 0;
         border-right: 0;
         padding: 40px 20px;
-        margin: 100px 0 0;
         font-size: 80px;
         letter-spacing: -4px;
+        margin: 0;
     }
-
 
 ul {
     padding: 0;}
