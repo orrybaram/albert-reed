@@ -9,13 +9,13 @@ body {
     background-color: black; 
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
-    box-shadow: inset 0 -100px 200px -40px #000;;
+    box-shadow:inset 0 -120px 300px -40px #000;
 }
 
 .hero-unit {
     margin: 0 auto;
     position: absolute;
-    bottom: 0%;
+    bottom: 5%;
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
@@ -27,7 +27,7 @@ body {
         color: #FFF;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
         padding: 20px 20px;
-        font-size: 60px;
+        font-size: 80px;
         letter-spacing: -2px;
         margin: 0;
         line-height: 50px;
@@ -60,6 +60,7 @@ ul {
             color: white;
             text-decoration: none;
             font-family: 'Lato', sans-serif; 
+            font-size: 18px;
         }
         ul li a:hover {
             border-bottom: 1px solid rgba(255, 255, 255, 0.5);
