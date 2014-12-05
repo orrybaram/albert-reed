@@ -4,14 +4,32 @@ html, body {
     padding: 0;
 }
 body {
-    background: url('../images/albert-reed-bkg1.jpg');
-    /*background: url('../images/albert-reed-bkg2.jpg');*/
-    background-size: cover;
-    background-color: black; 
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
-    
 }
+
+.image-container {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    background: url('../images/albert-reed-bkg1.jpg');
+    background-size: cover;
+    background-color: black; 
+    z-index: 0;
+}
+
+.image-container.pic2 {
+    background: url('../images/albert-reed-bkg2.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: #6C6C6C;
+    background-position: center;
+    display: none;
+}
+
+
 
 .hero-unit {
     margin: 0 auto;
@@ -21,7 +39,8 @@ body {
     font-weight: 200;
     line-height: 30px;
     text-align: center;
-    width:100%;}
+    width:100%;
+    z-index: 2;}
 
 
 
@@ -73,10 +92,11 @@ ul {
 
 .fade-to-black {
     position: absolute;
-    height: 80px;
+    height: 150px;
     bottom: 0;
     left:0;
     right:0;
+    z-index: 1;
 
     background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
