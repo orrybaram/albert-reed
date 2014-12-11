@@ -22,7 +22,7 @@ body {
 
 .image-container.pic2 {
     background: url('../images/albert-reed-bkg2.png');
-    background-size: auto;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-color: #6C6C6C;
     background-position: center;
