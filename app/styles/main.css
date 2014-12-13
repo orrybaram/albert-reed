@@ -29,8 +29,6 @@ body {
     display: none;
 }
 
-
-
 .hero-unit {
     margin: 0 auto;
     position: absolute;
@@ -42,29 +40,18 @@ body {
     width:100%;
     z-index: 2;}
 
-
-
     .hero-unit h1 {
         display: inline-block;
         color: #FFF;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
         padding: 35px 60px;
-        font-size: 80px;
-        letter-spacing: -2px;
+        font-size: 74px;
+        letter-spacing: 4px;
         margin: 0;
         line-height: 50px;
-        font-family: 'Playfair Display', serif;
-        
-        /*font-family: 'Marck Script', cursive;*/
-        /*font-family: 'Oranienbaum', serif;*/
-        
-        /*font-family: 'Droid Serif', serif;*/
-        /*font-family: 'Oswald', sans-serif;*/
-        /*font-family: 'Nothing You Could Do', cursive;*/
-        /*font-family: 'Lusitana', serif;*/
-        /*font-family: 'Rancho', cursive;*/
-        /*font-family: 'Cedarville Cursive', cursive;*/
-        /*font-family: 'Italiana', serif;*/
+        text-transform: uppercase;
+
+        font-family: 'Oswald', sans-serif; /* 2 */
         font-weight: 300;
 
         opacity: 0;
@@ -103,7 +90,7 @@ ul {
 
 .fade-to-black {
     position: absolute;
-    height: 150px;
+    height: 190px;
     bottom: 0;
     left:0;
     right:0;
