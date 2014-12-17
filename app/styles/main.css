@@ -110,12 +110,34 @@ ul {
     line-height: 80px;
 }
 
+@media (max-width: 1400px) {
+    .image-container.pic2 {
+        background-size: 60%; 
+    }
+}
+
+@media (max-width: 1200px) {
+    .image-container.pic2 {
+        background-size: 80%; 
+    }
+}
+
+@media (max-width: 900px) {
+    .image-container.pic2 {
+        background-size: 100%; 
+    }
+}
+
 @media (max-width: 600px) {
     .hero-unit h1 {
         font-size: 50px; 
     }
     ul li a {
         font-size: 16px;
+    }
+
+    .image-container.pic2 {
+        background-size: cover; 
     }
 }
 

@@ -8,7 +8,8 @@ $(function() {
 		$('ul').addClass('loaded');	
 	}, 1000)	
 
-	Background.rotate();	
+	Background.rotate();
+		
 })
 
 var Background = (function() {
