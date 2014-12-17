@@ -12,6 +12,7 @@ $(function() {
 })
 
 var Background = (function() {
+	var rotateTimer = null
 	return {
 		change: function() {
 			if ($('.pic2').is(':visible')) {
@@ -21,9 +22,12 @@ var Background = (function() {
 			}
 		},
 		rotate: function() {
-			setInterval(function() {
+			rotateTimer = setInterval(function() {
 				Background.change()
 			}, 10000);
+		},
+		stop: function() {
+			clearInterval(rotateTimer);
 		}
 	}
 })()
